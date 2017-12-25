@@ -1,0 +1,55 @@
+/*Fonts*/
+
+
+
+/*General styling*/
+
+.box-size {
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+.block {
+  display: block;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.large {
+  width: 60%;
+}
+
+.small {
+  width: 40%;
+}
+
+.content-container {
+  justify-content: center;
+}
+
+/*Header*/
+
+
+
+/*Banner section*/
+
+
+
+/*Info section*/
+
+
+
+/*Courses section*/
+
+
+
+/*Thesis section*/
+
+
+
+/*Footer*/
