@@ -6,6 +6,8 @@
 
 html {
   font-size: 16px;
+  font-family: Helvetica;
+  line-height: 1.4rem;
 }
 
 a {
@@ -30,27 +32,102 @@ a {
 
 .large {
   width: 60%;
+  border: 1px solid red;
 }
 
 .small {
   width: 40%;
+  border: 1px solid blue;
 }
 
 .content-container {
   justify-content: center;
+  width: 100%;
+}
+
+.small-img {
+  width: 35%;
+}
+
+.small-text {
+  width: 65%;
+}
+
+img{
+max-height: 100%;
+max-width: 100%;
+object-fit: cover;
 }
 
 /*Header*/
 
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  padding: 1rem 1.5rem;
+  background-color: rgb(255, 255, 255);
+}
 
+.content {
+  align-items: center;
+  width: 100%;
+  height: 2rem;
+}
+
+.logo {
+  align-items: center;
+}
+
+.logo-content {
+  flex-grow: 1;
+}
+
+.logo-text {
+  text-transform: uppercase;
+}
+
+.colmar {
+  font-weight: bold;
+  color: rgb(74, 74, 74)
+}
+
+.academy {
+  color: rgb(155, 155, 155)
+}
+
+.content ul li {
+  display: inline-flex;
+  padding-left: 1rem;
+}
+
+.content ul li a {
+  color: rgb(74, 74, 74);
+}
 
 /*Banner section*/
 
+.banner {
+  margin-top: 4rem;
+  display: inline-flex;
+  padding: 2rem 1.5rem;
+  background-color: rgb(216, 216, 216);
+  max-height: 30rem;
+  width: 100%;
+}
 
+.banner-small {
+  justify-content: center;
+  padding-left: 1.5rem;
+}
 
 /*Info section*/
 
-
+.info {
+  padding: 2rem 1.5rem;
+  width: 100%;
+  background-color: rgb(243, 245, 245);
+}
 
 /*Courses section*/
 
