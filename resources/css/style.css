@@ -4,6 +4,14 @@
 
 /*General styling*/
 
+html {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
 .box-size {
   box-sizing: border-box;
 }
