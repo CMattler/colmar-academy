@@ -6,8 +6,31 @@
 
 html {
   font-size: 16px;
-  font-family: Helvetica;
-  line-height: 1.4rem;
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: rgb(74, 74, 74);
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(74, 74, 74);
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(74, 74, 74);
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: rgb(74, 74, 74);
 }
 
 a {
@@ -32,12 +55,11 @@ a {
 
 .large {
   width: 60%;
-  border: 1px solid red;
+  padding: 1.5rem 2rem;
 }
 
 .small {
   width: 40%;
-  border: 1px solid blue;
 }
 
 .content-container {
@@ -51,12 +73,33 @@ a {
 
 .small-text {
   width: 65%;
+  padding: 0rem 1rem;
+}
+
+.small-text p {
+  margin: 0.5rem 0;
+}
+
+.group1 {
+  margin: 0.5rem 0 0.25rem 0;
+}
+
+.group2 {
+  margin: 0.25rem 0 0.5rem 0;
 }
 
 img{
 max-height: 100%;
 max-width: 100%;
 object-fit: cover;
+}
+
+.small-item {
+  transition: background-color .5s ease-out 0s;
+}
+
+.small-item:hover {
+  background-color: rgb(216, 216, 216);
 }
 
 /*Header*/
@@ -88,11 +131,13 @@ header {
 }
 
 .colmar {
+  font-family: "roboto";
   font-weight: bold;
   color: rgb(74, 74, 74)
 }
 
 .academy {
+  font-family: "roboto";
   color: rgb(155, 155, 155)
 }
 
@@ -110,7 +155,6 @@ header {
 .banner {
   margin-top: 4rem;
   display: inline-flex;
-  padding: 2rem 1.5rem;
   background-color: rgb(216, 216, 216);
   max-height: 30rem;
   width: 100%;
@@ -118,23 +162,122 @@ header {
 
 .banner-small {
   justify-content: center;
-  padding-left: 1.5rem;
+  padding-left: 1rem;
+}
+
+.banner-box {
+  width: 67%;
+}
+
+.btn {
+  justify-content: center;
+  padding: 0.5rem 0;
+  width: 100%;
+  background-color: rgb(74, 74, 74);
+  color: white;
+}
+
+.sub-h1 {
+  font-weight: bold;
+  padding: 1.5rem 0 1.5rem 0;
 }
 
 /*Info section*/
 
 .info {
-  padding: 2rem 1.5rem;
   width: 100%;
   background-color: rgb(243, 245, 245);
 }
 
+.info-large h2 {
+  padding: 2rem 0 1.5rem 0;
+}
+
+.info-small {
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.small-item {
+  padding: 1rem;
+}
+
+.small-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.st-group span {
+  padding-left: 0.5rem;
+  color: rgb(74, 74, 74);
+}
+
 /*Courses section*/
 
+.courses {
+  background-color: rgb(234, 235, 236);
+  align-items: center;
+  padding: 2rem 4.5rem 0rem 4.5rem;
+}
 
+.courses h2 {
+  margin-bottom: 2rem;
+}
+
+.course-items {
+  margin-bottom: 2rem;
+}
+
+.course-item {
+  background-color: white;
+  width: 33%;
+}
+
+.course-item img {
+  height: auto;
+}
+
+.middle {
+  margin: 0 2rem;
+}
+
+.course-text {
+  padding: 1rem 1rem 2rem 1rem;
+}
+
+.course-text span {
+  padding: 0.5rem 0rem;
+  color: rgb(74, 74, 74);
+  text-transform: uppercase;
+}
+
+.course-text span,
+.course-text p {
+  color: rgb(121, 121, 121);
+}
 
 /*Thesis section*/
 
+.thesis {
+  background-color: rgb(243, 245, 245);
+  align-items: center;
+  padding: 2rem 0 2rem 0;
+}
 
+.thesis h2 {
+  margin-bottom: 0.5rem;
+}
+
+.large h3 {
+  padding: 1.5rem 0 0.5rem 0;
+}
+
+.thesis .large p {
+  color: rgb(118, 118, 118);
+}
+
+.thesis .small .small-item .small-text p {
+  color: rgb(118, 118, 118)
+}
 
 /*Footer*/

@@ -24,7 +24,7 @@
         </div>
 
         <nav class="desktop flex">
-          <ul>
+          <ul role="presentation">
             <li><a href="#">On Campus</a></li>
             <li><a href="#">Online</a></li>
             <li><a href="#">For companies</a></li>
@@ -44,172 +44,205 @@
 
     <!--Banner section-->
 
-    <div class="banner box-size">
+      <div class="banner box-size">
 
-      <div class="banner-large large flex">
-        <img src="./resources/images/banner.jpg" alt="Students studying" />
-      </div>
-      <div class="banner-small small flex column">
-        <h1>Learn something new everyday</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        </p>
-        <a href="#" class="btn">Start here</a>
-      </div>
+        <div class="banner-large large box-size flex">
+          <img src="./resources/images/banner.jpg" alt="Students studying" />
+        </div>
+        <div class="banner-small small box-size flex column">
+          <div class="banner-box flex column">
+            <h1>Learn something new everyday</h1>
+            <p class="sub-h1">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+            <a href="#" class="btn flex">Start here</a>
+          </div>
+        </div>
 
-    </div>
+      </div>
 
     <!--Info section-->
 
-    <div class="info flex box-size">
+      <div class="info flex box-size">
 
-      <div class="info-large large box-size">
-        <img src="./resources/images/information-main.jpg" alt="Man reading book" />
-        <h2>It doesn't hurt to keep practicing</h2>
-        <p>
-          "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligua."
-        </p>
-      </div>
-
-      <div class="info-small small flex column">
-        <div class="info-item flex">
-          <div class="small-img">
-            <img src="./resources/images/information-orientation.jpg" alt="Students walking" />
-          </div>
-          <div class="small-text">
-            <h3>Orientation date</h3>
-            <i class="fa fa-calendar"></i><span>Tue 10/11 & Wed 10/12</span>
-            <i class="fa fa-clock-o"></i><span>8am-3pm</span>
-            <a href="#">Read more</a>
-          </div>
-        </div>
-        <div class="info-item flex">
-          <div class="small-img">
-            <img src="./resources/images/information-campus.jpg" alt="Classroom" />
-          </div>
-          <div class="small-text">
-            <h3>Our campus</h3>
-            <p>Find which campus is close by you</p>
-            <a href="#">Read more</a>
-          </div>
-        </div>
-        <div class="info-item flex">
-          <div class="small-img">
-            <img src="./resources/images/information-guest-lecture.jpg" alt="Lecturer" />
-          </div>
-          <div class="small-text">
-            <h3>Our guest lecture</h3>
-            <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-            <a href="#">Read more</a>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-
-    <!--Courses section-->
-
-    <div>
-
-      <h2>Start learning</h2>
-
-      <div class="course-items">
-        <div class="course-item">
-          <img src="./resources/images/course-software.jpg" alt="Computer software" />
-          <h3>Software engineering</h3>
-          <span>courses</span>
-          <p>Web Development, Mobile Development, iOT, APIs</p>
-        </div>
-        <div class="course-item">
-          <img src="./resources/images/course-computer-art.jpg" alt="Hand with smartphone" />
-          <h3>Computer art</h3>
-          <span>courses</span>
-          <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
-        </div>
-        <div class="course-item">
-          <img src="./resources/images/course-design.jpg" alt="Student with camera" />
-          <h3>Design</h3>
-          <span>courses</span>
-          <p>User Experience Design, User Research, Visual Design</p>
-        </div>
-        <div class="course-item">
-          <img src="./resources/images/course-data.jpg" alt="Laptop with data charts" />
-          <h3>Data</h3>
-          <span>courses</span>
-          <p>Data Science, Big Data, SQL, Data Visualization</p>
-        </div>
-        <div class="course-item">
-          <img src="./resources/images/course-business.jpg" alt="Chess board" />
-          <h3>Business</h3>
-          <span>courses</span>
-          <p>Product Development, Business Development, Startup</p>
-        </div>
-        <div class="course-item">
-          <img src="./resources/images/course-marketing.jpg" alt="Wrist with watch" />
-          <h3>Marketing</h3>
-          <span>courses</span>
-          <p>Analytics, Content Marketing, Mobile Marketing</p>
-        </div>
-      </div>
-
-    </div>
-
-    <!--Thesis section-->
-
-    <div>
-
-      <h2>Thesis exhibit</h2>
-
-      <div class="thesis flex">
-
-        <div class="large flex column">
-          <video width="320" height="240" controls>
-            <source src="./resources/video/thesis.mp4" type="video/mp4">
-            Your browser does not support video playback
-          </video>
-          <h2>Reimagine urban</h2>
+        <div class="info-large large box-size">
+          <img src="./resources/images/information-main.jpg" alt="Man reading book" />
+          <h2>It doesn't hurt to keep practicing</h2>
           <p>
             "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligua."
           </p>
         </div>
 
-      </div>
-
-        <div class="small">
-
-          <div>
-            <div>
-              <img src="./resources/images/thesis-fisma.jpg" alt="Designer's desk" />
+        <div class="info-small small box-size flex column">
+          <div class="small-item flex">
+            <div class="small-img">
+              <img src="./resources/images/information-orientation.jpg" alt="Students walking" />
             </div>
-            <div>
-              <h3>Fisma: Design and Prototype</h3>
-              <p>
-                Designer showcase of new prototype product
-              </p>
+            <div class="small-text">
+              <h3>Orientation date</h3>
+              <div class="st-group group1">
+                <i class="fa fa-calendar"></i><span class="cal-span">Tue 10/11 & Wed 10/12</span>
+              </div>
+              <div class="st-group group2">
+                <i class="fa fa-clock-o"></i><span>8am-3pm</span>
+              </div>
+              <a href="#">Read more</a>
             </div>
           </div>
-          <div>
-            <div>
-              <img src="./resources/images/thesis-now-and-then.jpg" alt="Empire State Building" />
+          <div class="small-item flex">
+            <div class="small-img">
+              <img src="./resources/images/information-campus.jpg" alt="Classroom" />
             </div>
-            <div>
-              <h3>Now and then</h3>
-              <p>
-                Research study about New York
-              </p>
+            <div class="small-text">
+              <h3>Our campus</h3>
+              <p>Find which campus is close by you</p>
+              <a href="#">Read more</a>
             </div>
+          </div>
+          <div class="small-item flex">
+            <div class="small-img">
+              <img src="./resources/images/information-guest-lecture.jpg" alt="Lecturer" />
+            </div>
+            <div class="small-text">
+              <h3>Our guest lecture</h3>
+                <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+    <!--Courses section-->
+
+      <div class="courses flex column">
+
+        <h2>Start learning</h2>
+
+        <div class="course-items flex">
+          <div class="course-item left">
+            <div class="course-img">
+              <img src="./resources/images/course-software.jpg" alt="Computer software" />
+            </div>
+            <div class="course-text flex column">
+              <h3>Software engineering</h3>
+              <span>courses</span>
+              <p>Web Development, Mobile Development, iOT, APIs</p>
+            </div>
+          </div>
+          <div class="course-item middle">
+            <div class="course-img">
+              <img src="./resources/images/course-computer-art.jpg" alt="Hand with smartphone" />
+            </div>
+            <div class="course-text flex column">
+              <h3>Computer art</h3>
+              <span>courses</span>
+              <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+            </div>
+          </div>
+          <div class="course-item right">
+            <div class="course-img">
+              <img src="./resources/images/course-design.jpg" alt="Student with camera" />
+            </div>
+            <div class="course-text flex column">
+              <h3>Design</h3>
+              <span>courses</span>
+              <p>User Experience Design, User Research, Visual Design</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="course-items flex">
+          <div class="course-item left">
+            <div class="course-img">
+              <img src="./resources/images/course-data.jpg" alt="Laptop with data charts" />
+            </div>
+            <div class="course-text flex column">
+              <h3>Data</h3>
+              <span>courses</span>
+              <p>Data Science, Big Data, SQL, Data Visualization</p>
+            </div>
+          </div>
+          <div class="course-item middle">
+            <div class="course-img">
+              <img src="./resources/images/course-business.jpg" alt="Chess board" />
+            </div>
+            <div class="course-text flex column">
+              <h3>Business</h3>
+              <span>courses</span>
+              <p>Product Development, Business Development, Startup</p>
+            </div>
+          </div>
+          <div class="course-item right">
+            <div class="course-img">
+              <img src="./resources/images/course-marketing.jpg" alt="Wrist with watch" />
+            </div>
+            <div class="course-text flex column">
+              <h3>Marketing</h3>
+              <span>courses</span>
+              <p>Analytics, Content Marketing, Mobile Marketing</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    <!--Thesis section-->
+
+      <div class="thesis flex column">
+
+        <h2>Thesis exhibit</h2>
+
+        <div class="thesis-items flex">
+
+          <div class="large flex column">
+          <video width="100%" height="auto" controls>
+            <source src="./resources/video/thesis.mp4" type="video/mp4">
+            Your browser does not support video playback
+          </video>
+          <h3>Reimagine urban</h3>
+          <p>
+            "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligua."
+          </p>
+        </div>
+
+          <div class="small">
+
+            <div class="small-item flex">
+              <div class="small-img">
+                <img src="./resources/images/thesis-fisma.jpg" alt="Designer's desk" />
+              </div>
+              <div class="small-text">
+                <h3>Fisma: Design and Prototype</h3>
+                <p>
+                  Designer showcase of new prototype product
+                </p>
+              </div>
+            </div>
+            <div class="small-item flex">
+              <div class="small-img">
+                <img src="./resources/images/thesis-now-and-then.jpg" alt="Empire State Building" />
+              </div>
+              <div class="small-text">
+                <h3>Now and then</h3>
+                <p>
+                  Research study about New York
+                </p>
+              </div>
+            </div>
+
           </div>
 
         </div>
 
       </div>
 
-    </div>
-
     <!--End content container-->
 
     </div>
+
+
 
     <!--Footer-->
 
