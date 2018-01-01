@@ -41,10 +41,6 @@ a {
   display: flex;
 }
 
-.block {
-  display: block;
-}
-
 .column {
   flex-direction: column;
 }
@@ -58,8 +54,15 @@ a {
   width: 40%;
 }
 
-.content-container {
+.ai {
+  align-items: center;
+}
+
+.jc {
   justify-content: center;
+}
+
+.content-container {
   width: 100%;
 }
 
@@ -119,13 +122,8 @@ header {
 }
 
 .content {
-  align-items: center;
   width: 100%;
   height: 2rem;
-}
-
-.logo {
-  align-items: center;
 }
 
 .logo-content {
@@ -134,7 +132,6 @@ header {
 
 .logo-text {
   text-transform: uppercase;
-  align-items: center;
 }
 
 .colmar {
@@ -157,11 +154,6 @@ header {
   color: rgb(74, 74, 74);
 }
 
-.desktop {
-  align-items: center;
-  justify-content: center;
-}
-
 /*Banner section*/
 
 .banner {
@@ -172,7 +164,6 @@ header {
 }
 
 .banner-small {
-  justify-content: center;
   padding-left: 1rem;
 }
 
@@ -181,12 +172,10 @@ header {
 }
 
 .btn {
-  justify-content: center;
   padding: 0.5rem 0;
   width: 100%;
   background-color: rgb(74, 74, 74);
   color: white;
-  align-items: center;
 }
 
 .btn:hover {
@@ -275,12 +264,6 @@ header {
   padding: 1rem;
 }
 
-.small-text {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
 .small-text a {
   color: rgb(74, 144, 226)
 }
@@ -333,7 +316,6 @@ header {
 
 .courses {
   background-color: rgb(234, 235, 236);
-  align-items: center;
   padding: 2rem 4.5rem 0rem 4.5rem;
 }
 
@@ -420,7 +402,6 @@ header {
 
 .thesis {
   background-color: rgb(243, 245, 245);
-  align-items: center;
   padding: 2rem 0 2rem 0;
 }
 
