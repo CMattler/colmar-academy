@@ -154,6 +154,18 @@ header {
   color: rgb(74, 74, 74);
 }
 
+@media only screen and (min-width: 740px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .desktop {
+    display: none;
+  }
+}
+
 /*Banner section*/
 
 .banner {
@@ -188,18 +200,6 @@ header {
   padding: 1.5rem 0 1.5rem 0;
 }
 
-@media only screen and (min-width: 600px) {
-  .mobile {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .desktop {
-    display: none;
-  }
-}
-
 @media only screen and (max-width: 840px) {
   .banner {
       flex-direction: column;
@@ -229,7 +229,7 @@ header {
   }
 }
 
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 740px) {
   .small,
   .banner-box {
     width: 100%;
@@ -386,13 +386,13 @@ header {
   }
 }
 
-@media only screen and (max-width: 310px) {
+@media only screen and (max-width: 740px) {
   .courses {
     padding: 2rem 0rem 1.5rem 0rem;
   }
 }
 
-@media only screen and (min-width: 310px) and (max-width: 470px) {
+@media only screen and (min-width: 310px) and (max-width: 740px) {
   .courses {
     padding: 2rem 2rem 1.5rem 2rem;
   }
