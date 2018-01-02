@@ -154,13 +154,13 @@ header {
   color: rgb(74, 74, 74);
 }
 
-@media only screen and (min-width: 740px) {
+@media only screen and (min-width: 740px) and (orientation: portrait) {
   .mobile {
     display: none;
   }
 }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 740px) and (orientation: portrait) {
   .desktop {
     display: none;
   }
@@ -200,7 +200,7 @@ header {
   padding: 1.5rem 0 1.5rem 0;
 }
 
-@media only screen and (max-width: 840px) {
+@media only screen and (max-width: 840px) and (orientation: portrait) {
   .banner {
       flex-direction: column;
   }
@@ -219,7 +219,7 @@ header {
   }
 }
 
-@media only screen and (min-width: 360px) and (max-width: 840px) {
+@media only screen and (min-width: 360px) and (max-width: 840px) and (orientation: portrait) {
   .small {
     width: 100%;
   }
@@ -270,13 +270,13 @@ header {
   color: darkblue;
 }
 
-@media only screen and (min-width: 740px) {
+@media only screen and (min-width: 740px) and (orientation: portrait) {
   .mobile-img {
     display: none;
   }
 }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 740px) and (orientation: portrait) {
   .info-large,
   .small-img {
     display: none;
@@ -338,7 +338,7 @@ header {
   color: rgb(121, 121, 121);
 }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 740px) and (orientation: portrait) {
   .course-item .course-img,
   .course-item .course-text span,
   .course-item .course-text p {
@@ -369,13 +369,13 @@ header {
   }
 }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 740px) and (orientation: portrait) {
   .courses {
     padding: 2rem 0rem 1.5rem 0rem;
   }
 }
 
-@media only screen and (min-width: 310px) and (max-width: 740px) {
+@media only screen and (min-width: 310px) and (max-width: 740px) and (orientation: portrait) {
   .courses {
     padding: 2rem 2rem 1.5rem 2rem;
   }
@@ -404,7 +404,7 @@ header {
   color: rgb(118, 118, 118)
 }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 740px) and (orientation: portrait) {
   .thesis-small,
   .tl-text {
     display: none;
