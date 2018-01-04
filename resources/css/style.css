@@ -334,7 +334,7 @@ header {
 }
 
 .course-text {
-  padding: 1rem 1rem 2rem 1rem;
+  padding: 2rem 1rem 2rem 1rem;
 }
 
 .course-text span {
@@ -414,7 +414,7 @@ header {
   color: rgb(118, 118, 118)
 }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 840px) {
   .thesis-small,
   .tl-text {
     display: none;
